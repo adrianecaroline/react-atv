@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Aprendendo React</h1>
+      <div className="frame">
+      <img src="https://www.iguiecologia.com/wp-content/uploads/2021/02/Coruja-buraqueira7-2.jpg"  alt="coruja" className="owl"/>
+        <pre>
+          Por influência da mitologia grega, tanto que Atena, deusa da guerra e da sabedoria, tinha uma coruja como mascote. <br/>
+          Os gregos consideravam a noite como o momento do pensamento filosófico e da revelação intelectual e a coruja,<br/>por ser uma ave noturna, acabou representando essa busca pelo saber.
+        </pre>
+      </div>
     </div>
   );
 }
